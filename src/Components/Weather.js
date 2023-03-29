@@ -59,7 +59,7 @@ const Weather = () => {
         <tr>
           <td>Wind Speed: </td>
           <td>{weather?.current?.gust_mph} mph</td>
-          <td>{weather?.current?.gust_kph} kph</td>
+          <td>{weather?.current?.gust_kph} mph</td>
         </tr>
       </table>
     </div>
